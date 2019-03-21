@@ -12,7 +12,7 @@ from fastai.vision import *
 export_file_url = 'https://s3.ap-south-1.amazonaws.com/dataset-fyp/fastAI/export.pkl'
 export_file_name = 'export.pkl'
 
-classes = ['black', 'grizzly', 'teddys']
+classes = ['cardboard', 'glass', 'metal', 'paper','plastic']
 path = Path(__file__).parent
 
 app = Starlette()
